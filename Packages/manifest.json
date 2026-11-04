@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.soosvet_games.dotween": "1.0.1",
+    "com.soosvet_games.common_tools": "1.1.8",
+    "com.soosvet_games.ioc_zenject": "1.0.1",
+    "com.soosvet_games.vvm": "1.0.1",
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.ide.rider": "3.0.39",
@@ -45,5 +50,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "com.soosvet_games"
+      ]
+    }
+  ]
 }
