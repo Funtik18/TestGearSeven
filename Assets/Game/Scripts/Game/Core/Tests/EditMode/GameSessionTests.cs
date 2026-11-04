@@ -45,6 +45,7 @@ namespace RosiesCornerShop.Core.Tests
         static int Count( ItemState item ) => item == null ? 0 : ( item.hammer ? 0 : 1 ) + Count( item.back );
 
         [ Test ]
+        // Нужный товар попадает в корзину, а товар заднего ряда выходит вперёд.
         public void Take_MatchingItemEntersBasket_AndRearItemMovesForward()
         {
             CreateSession();
@@ -66,6 +67,7 @@ namespace RosiesCornerShop.Core.Tests
         }
 
         [ Test ]
+        // Полный прилавок запрещает взять лишний товар, но разрешает товар для корзины.
         public void FullCounter_RejectsUnmatchedItem_StillAcceptsBasketItem()
         {
             CreateSession();
@@ -86,6 +88,7 @@ namespace RosiesCornerShop.Core.Tests
         }
 
         [ Test ]
+        // Отправка корзины размораживает полку; награда за победу начисляется один раз.
         public void Shipping_ThawsFrozenShelf_AndAwardsVictoryExactlyOnce()
         {
             CreateSession();
@@ -112,6 +115,7 @@ namespace RosiesCornerShop.Core.Tests
         }
 
         [ Test ]
+        // Отмена восстанавливает полку с ключом, замок, прилавок и счётчик ходов.
         public void Undo_RestoresRemovedKeyShelf_LockAndCounter()
         {
             CreateSession();
@@ -136,6 +140,7 @@ namespace RosiesCornerShop.Core.Tests
         }
 
         [ Test ]
+        // Уборка возвращает три товара без потерь и дубликатов; при неудаче монеты не списываются.
         public void Tidy_ReturnsThreeItemsWithoutLoss_ChargesOnlyForSuccessfulUse()
         {
             CreateSession( 3 );
