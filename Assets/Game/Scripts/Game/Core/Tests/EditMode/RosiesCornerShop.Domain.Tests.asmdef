@@ -1,0 +1,8 @@
+{
+    "name": "RosiesCornerShop.Domain.Tests",
+    "rootNamespace": "RosiesCornerShop.Tests",
+    "references": ["RosiesCornerShop.Domain"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "noEngineReferences": true
+}

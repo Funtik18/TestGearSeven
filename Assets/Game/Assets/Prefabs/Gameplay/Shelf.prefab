@@ -94,10 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad0da2b39cb730418a36fb3c8c9a2d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShelfView
-  slotsRoot: {fileID: 6504391282524565461}
-  status: {fileID: 1686147405215025555}
-  barrier: {fileID: 3183005862691694043}
-  slotPrefab: {fileID: 8014083234312572041}
+  <SlotsRoot>k__BackingField: {fileID: 6504391282524565461}
+  <SlotPrefab>k__BackingField: {fileID: 8014083234312572041}
+  <Status>k__BackingField: {fileID: 1686147405215025555}
+  <Barrier>k__BackingField: {fileID: 3183005862691694043}
 --- !u!1 &1612820207710810447
 GameObject:
   m_ObjectHideFlags: 0

@@ -147,6 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2512779484307471293}
   - component: {fileID: 5625654220671857975}
+  - component: {fileID: 6987591338868862007}
   m_Layer: 0
   m_Name: CollectionScreen
   m_TagString: Untagged
@@ -189,9 +190,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558d897be11778641a543eb766384c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.CollectionView
-  content: {fileID: 176206918566122987}
-  summary: {fileID: 6881552156869132747}
-  back: {fileID: 6817363308621120109}
+  <Content>k__BackingField: {fileID: 176206918566122987}
+  <Summary>k__BackingField: {fileID: 6881552156869132747}
+  <BackButton>k__BackingField: {fileID: 6817363308621120109}
+--- !u!225 &6987591338868862007
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305392117604063256}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1355929520626208508
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,8 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 3462214452651632230}
-  caption: {fileID: 1626818030888267358}
+  _button: {fileID: 3462214452651632230}
+  _caption: {fileID: 1626818030888267358}
 --- !u!1 &8538853462569538664
 GameObject:
   m_ObjectHideFlags: 0

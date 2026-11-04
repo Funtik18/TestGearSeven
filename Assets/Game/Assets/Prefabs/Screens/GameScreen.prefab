@@ -273,8 +273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 9072207078782780721}
-  caption: {fileID: 599368054133603258}
+  _button: {fileID: 9072207078782780721}
+  _caption: {fileID: 599368054133603258}
 --- !u!1 &375428200498602008
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,8 +521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 7629810224364760889}
-  caption: {fileID: 174403417521195354}
+  _button: {fileID: 7629810224364760889}
+  _caption: {fileID: 174403417521195354}
 --- !u!1 &1171299874068761177
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,8 +941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 5264452752944316429}
-  caption: {fileID: 1989444103083869784}
+  _button: {fileID: 5264452752944316429}
+  _caption: {fileID: 1989444103083869784}
 --- !u!1 &1977623762503329518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,8 +1516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 1659081035405761682}
-  caption: {fileID: 288856038196777897}
+  _button: {fileID: 1659081035405761682}
+  _caption: {fileID: 288856038196777897}
 --- !u!1 &3723019982501152312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,8 +1729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 5379261411722626040}
-  caption: {fileID: 8265663049940704154}
+  _button: {fileID: 5379261411722626040}
+  _caption: {fileID: 8265663049940704154}
 --- !u!1 &3836608935577470980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,8 +2436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 8888628041446004733}
-  caption: {fileID: 2902154458436339475}
+  _button: {fileID: 8888628041446004733}
+  _caption: {fileID: 2902154458436339475}
 --- !u!1 &5259625040923359396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,6 +3024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7079824064058565399}
   - component: {fileID: 5776280420162118754}
+  - component: {fileID: 7600298671549414225}
   m_Layer: 0
   m_Name: GameScreen
   m_TagString: Untagged
@@ -3081,33 +3082,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ae57b88aa61814e84303c9f99de318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.GameView
-  level: {fileID: 30603464100645225}
-  progress: {fileID: 8609484929431208582}
-  coins: {fileID: 7696366497279649649}
-  instruction: {fileID: 2704011495913543520}
-  progressFill: {fileID: 7766996154036951172}
-  columns:
+  <Level>k__BackingField: {fileID: 30603464100645225}
+  <Progress>k__BackingField: {fileID: 8609484929431208582}
+  <Coins>k__BackingField: {fileID: 7696366497279649649}
+  <Instruction>k__BackingField: {fileID: 2704011495913543520}
+  <ProgressFill>k__BackingField: {fileID: 7766996154036951172}
+  <Columns>k__BackingField:
   - {fileID: 8971749400579171147}
   - {fileID: 6924060516615689611}
   - {fileID: 7962173956934388316}
-  baskets:
+  <Baskets>k__BackingField:
   - {fileID: 8539169124771516013}
   - {fileID: 7557867012103361878}
   - {fileID: 5097904509851738688}
-  stock:
+  <Stock>k__BackingField:
   - {fileID: 5835286994739180273}
   - {fileID: 5459410845633425592}
   - {fileID: 2520984026414610161}
-  itemLayer: {fileID: 6466158588712476794}
-  effects: {fileID: 1434642996823448963}
-  settings: {fileID: 761978379785348252}
-  undo: {fileID: 7141325152622014719}
-  extraBasket: {fileID: 4482101705557738584}
-  boosters:
+  <ItemLayer>k__BackingField: {fileID: 6466158588712476794}
+  <Effects>k__BackingField: {fileID: 1434642996823448963}
+  <SettingsButton>k__BackingField: {fileID: 761978379785348252}
+  <UndoButton>k__BackingField: {fileID: 7141325152622014719}
+  <ExtraBasketButton>k__BackingField: {fileID: 4482101705557738584}
+  <Boosters>k__BackingField:
   - {fileID: 5768745173255283149}
   - {fileID: 6400999608517299225}
   - {fileID: 7249208719051061809}
-  counter: {fileID: 7767478337423464540}
+  <Counter>k__BackingField: {fileID: 7767478337423464540}
+--- !u!225 &7600298671549414225
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390275734996764496}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7702794397717915461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,7 +3714,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &5459410845633425592 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5513772258156411356, guid: be35c21d3ed1792449ab54026f7ddfe0, type: 3}
@@ -3712,7 +3725,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &5835286994739180273 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6322061018245069717, guid: be35c21d3ed1792449ab54026f7ddfe0, type: 3}
@@ -3723,7 +3736,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!224 &6924060516615689611 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7444546667046132975, guid: be35c21d3ed1792449ab54026f7ddfe0, type: 3}

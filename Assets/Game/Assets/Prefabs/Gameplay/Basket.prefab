@@ -1099,14 +1099,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab112fe6599d974e8cc7de94fc2b0cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.BasketView
-  slots:
+  <Slots>k__BackingField:
   - {fileID: 6588006466998475521}
   - {fileID: 5721779309745794697}
   - {fileID: 7873006837555185286}
-  order: {fileID: 8598571331340139970}
-  count: {fileID: 1680806847698399343}
-  napkin: {fileID: 4878091974716077334}
-  orderIcon: {fileID: 2098101822838482034}
+  <Order>k__BackingField: {fileID: 8598571331340139970}
+  <Count>k__BackingField: {fileID: 1680806847698399343}
+  <Napkin>k__BackingField: {fileID: 4878091974716077334}
+  <OrderIcon>k__BackingField: {fileID: 2098101822838482034}
 --- !u!1 &7322215157073731162
 GameObject:
   m_ObjectHideFlags: 0

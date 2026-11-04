@@ -1,0 +1,5 @@
+{
+  "name": "RosiesCornerShop.Domain",
+  "rootNamespace": "RosiesCornerShop.Core",
+  "noEngineReferences": true
+}

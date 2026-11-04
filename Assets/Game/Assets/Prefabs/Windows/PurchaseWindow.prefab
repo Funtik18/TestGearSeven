@@ -357,8 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 6160486740874198361}
-  caption: {fileID: 6985914988328019037}
+  _button: {fileID: 6160486740874198361}
+  _caption: {fileID: 6985914988328019037}
 --- !u!1 &542553819913427828
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,8 +570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 7352799796342688708}
-  caption: {fileID: 6324971379993298173}
+  _button: {fileID: 7352799796342688708}
+  _caption: {fileID: 6324971379993298173}
 --- !u!1 &976687360115610333
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,8 +995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 3975799055530997726}
-  caption: {fileID: 6366959026013540150}
+  _button: {fileID: 3975799055530997726}
+  _caption: {fileID: 6366959026013540150}
 --- !u!1 &4724737585826520865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,17 +1099,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ba2546b3bcb4a7449f7f629d6809ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.WindowView
-  panel: {fileID: 6033539315634930807}
-  group: {fileID: 7654116335296479702}
-  title: {fileID: 7727311070018140373}
-  description: {fileID: 4424109296960964106}
-  actions:
+  <Panel>k__BackingField: {fileID: 6033539315634930807}
+  <Title>k__BackingField: {fileID: 7727311070018140373}
+  <Description>k__BackingField: {fileID: 4424109296960964106}
+  <Actions>k__BackingField:
   - {fileID: 7393721572925695466}
   - {fileID: 2808548394969652709}
   - {fileID: 3349043787225549387}
   - {fileID: 2354342081403975400}
   - {fileID: 4461837635409550964}
-  content: {fileID: 8844234372891622854}
+  <Content>k__BackingField: {fileID: 8844234372891622854}
 --- !u!1 &5129791716821400897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,8 +2031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 7206880659034015019}
-  caption: {fileID: 1071586793449559376}
+  _button: {fileID: 7206880659034015019}
+  _caption: {fileID: 1071586793449559376}
 --- !u!1 &7231421145793146176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,8 +2628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 3495471406344649666}
-  caption: {fileID: 5160341950404383910}
+  _button: {fileID: 3495471406344649666}
+  _caption: {fileID: 5160341950404383910}
 --- !u!1 &9202826727878348581
 GameObject:
   m_ObjectHideFlags: 0

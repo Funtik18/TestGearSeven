@@ -676,14 +676,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d844f85f93e04857a9de74a542e6546d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.CounterView
-  slots:
+  <Slots>k__BackingField:
   - {fileID: 6994197400451305725}
   - {fileID: 6841106208149561120}
   - {fileID: 7565586491179679091}
   - {fileID: 5714405599767231469}
   - {fileID: 4360360491978901620}
-  surface: {fileID: 5378829736661966207}
-  caption: {fileID: 2289428431284775334}
+  <Surface>k__BackingField: {fileID: 5378829736661966207}
+  <Caption>k__BackingField: {fileID: 2289428431284775334}
 --- !u!1 &7407795351035519688
 GameObject:
   m_ObjectHideFlags: 0

@@ -423,5 +423,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9312beb37ed74f54faebfc3b892dfbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosiesCornerShop.Core.ShopButton
-  button: {fileID: 3790705279814085997}
-  caption: {fileID: 188201802536364661}
+  _button: {fileID: 3790705279814085997}
+  _caption: {fileID: 188201802536364661}
